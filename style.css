@@ -7,7 +7,7 @@
 }
 
 body{
-    background:#050816;
+    background:#000000;
     color:white;
     overflow-x:hidden;
 }
@@ -33,7 +33,7 @@ body{
 .blob1{
     width:400px;
     height:400px;
-    background:cyan;
+    background:#ff4500;
     top:-100px;
     left:-100px;
 }
@@ -41,7 +41,7 @@ body{
 .blob2{
     width:400px;
     height:400px;
-    background:violet;
+    background:#ff8c00;
     bottom:-100px;
     right:-100px;
 }
@@ -49,7 +49,7 @@ body{
 .blob3{
     width:300px;
     height:300px;
-    background:hotpink;
+    background:#ffd700;
     top:40%;
     left:40%;
 }
@@ -88,14 +88,14 @@ nav{
 .logo{
     font-size:30px;
     font-weight:800;
-    color:cyan;
+    color:#ff4500;
     cursor:pointer;
     transition:0.3s;
 }
 
 .logo:hover{
     transform:scale(1.1);
-    text-shadow:0 0 20px cyan;
+    text-shadow:0 0 20px #ff4500;
 }
 
 .nav-links{
@@ -111,7 +111,7 @@ nav{
 }
 
 .nav-links li a:hover{
-    color:cyan;
+    color:#ff4500;
 }
 
 .menu-btn{
@@ -169,7 +169,7 @@ nav{
 }
 
 .hero-subtitle{
-    color:cyan;
+    color:#ff4500;
     letter-spacing:8px;
     margin-bottom:20px;
 }
@@ -180,9 +180,9 @@ nav{
 
     background:linear-gradient(
         to right,
-        cyan,
-        violet,
-        hotpink
+        #ff4500,
+        #ff8c00,
+        #ffd700
     );
 
     -webkit-background-clip:text;
@@ -214,13 +214,13 @@ nav{
 }
 
 .primary-btn{
-    background:cyan;
+    background:#ff4500;
     color:black;
 }
 
 .primary-btn:hover{
     transform:scale(1.05);
-    box-shadow:0 0 30px cyan;
+    box-shadow:0 0 30px #ff4500;
 }
 
 .secondary-btn{
@@ -246,7 +246,7 @@ section{
 
 .section-title h2{
     font-size:55px;
-    color:cyan;
+    color:#ff4500;
     margin-bottom:15px;
 }
 
@@ -296,7 +296,7 @@ section{
 
 .stat h3{
     font-size:40px;
-    color:cyan;
+    color:#ff4500;
 }
 
 /* PROJECTS */
@@ -337,8 +337,8 @@ section{
 .project-card:hover,
 .certificate-card:hover{
     transform:translateY(-10px) rotate(1deg);
-    border-color:cyan;
-    box-shadow:0 0 30px rgba(0,255,255,0.2);
+    border-color:#ff4500;
+    box-shadow:0 0 30px rgba(255,69,0,0.2);
 }
 
 .project-number{
@@ -346,7 +346,7 @@ section{
     height:70px;
     border-radius:20px;
 
-    background:linear-gradient(to right, cyan, violet);
+    background:linear-gradient(to right, #ff4500, #ff8c00);
 
     display:flex;
     justify-content:center;
@@ -389,10 +389,10 @@ section{
 }
 
 .skill:hover{
-    background:cyan;
+    background:#ff4500;
     color:black;
     transform:scale(1.1);
-    box-shadow:0 0 20px cyan;
+    box-shadow:0 0 20px #ff4500;
 }
 
 /* CONTACT */
@@ -412,8 +412,8 @@ section{
 
 .contact-card:hover{
     transform:translateY(-10px);
-    border-color:cyan;
-    box-shadow:0 0 25px rgba(0,255,255,0.2);
+    border-color:#ff4500;
+    box-shadow:0 0 25px rgba(255,69,0,0.2);
 }
 
 .contact-card h3{
@@ -448,7 +448,7 @@ footer{
         width:250px;
         height:300px;
 
-        background:#111827;
+        background:#000000;
 
         flex-direction:column;
         justify-content:center;
