@@ -1,35 +1,76 @@
-body{
-    font-family: Arial;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
+.skill {
+    border: 1px solid rgba(255,255,255,0.1);
+    transition: 0.3s;
 }
 
-.container{
-    width: 80%;
-    margin: auto;
+.skill:hover {
+    background: cyan;
+    color: black;
+    transform: scale(1.1);
+    box-shadow: 0 0 20px cyan;
+}
+
+/* Contact */
+.contact {
     text-align: center;
-    padding: 20px;
 }
 
-.profile{
-    width: 150px;
-    border-radius: 50%;
-    margin-top: 20px;
+.contact p {
+    color: #ccc;
+    margin-bottom: 40px;
 }
 
-h1{
-    color: #333;
+.contact-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
 }
 
-ul{
-    list-style: none;
-    padding: 0;
+.contact-card {
+    background: rgba(255,255,255,0.05);
+    padding: 30px;
+    border-radius: 25px;
+    transition: 0.3s;
+    border: 1px solid rgba(255,255,255,0.1);
 }
 
-li{
-    background: white;
-    margin: 10px;
-    padding: 10px;
-    border-radius: 5px;
+.contact-card:hover {
+    transform: translateY(-8px);
+    border-color: cyan;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 30px;
+    border-top: 1px solid rgba(255,255,255,0.1);
+    color: #aaa;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+
+    nav {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    nav ul {
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .hero h1 {
+        font-size: 45px;
+    }
+
+    h2 {
+        font-size: 38px;
+    }
+
+    .buttons {
+        flex-direction: column;
+        align-items: center;
+    }
 }
